@@ -1,4 +1,4 @@
-# Agentic Marketing
+# Agentic Marketing Suite
 
 A modular suite of Claude Code skills for full-stack marketing — from strategic planning through channel execution, measurement, and automation. Each skill is a specialist that can be invoked independently or routed to by the agency coordinator.
 
