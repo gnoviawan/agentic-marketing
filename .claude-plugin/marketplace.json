@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Full-stack agentic marketing suite — 21 specialist skills covering strategy, channels, conversion, and growth",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "repository": "https://github.com/gnoviawan/agentic-marketing"
   },
   "plugins": [
