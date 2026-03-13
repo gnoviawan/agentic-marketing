@@ -19,12 +19,12 @@ Turn the strategy into channel-specific deliverables without losing the context 
 
 ```mermaid
 flowchart TD
-    A[Completed SOSTAC plan] --> B[Create or refresh product-marketing-context.md]
-    B --> C[Choose specialist skills from 04-tactics.md]
+    A[Completed SOSTAC plan] --> B["Create or refresh product-marketing-context"]
+    B --> C["Choose specialists from 04-tactics"]
     C --> D[Create channel deliverables]
-    D --> E[Save into campaigns/ and content/]
-    E --> F[Measure in analytics/]
-    F --> G[Review against 06-control.md]
+    D --> E["Save into campaigns/ and content/"]
+    E --> F["Measure in analytics/"]
+    F --> G["Review against 06-control"]
 ```
 
 ## Common handoffs

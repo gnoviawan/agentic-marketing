@@ -42,12 +42,12 @@ If the brand does not already have a strategy, continue with `/marketing-sostac`
 
 ```mermaid
 flowchart TD
-    A[Start with /marketing-agency] --> B{Brand exists?}
+    A["#sol;marketing-agency"] --> B{Brand exists?}
     B -- No --> C[Collect brand basics]
-    C --> D[Create brands/{brand-slug}/]
-    D --> E[Write brand-context.md]
-    E --> F[Create sostac/README.md]
-    F --> G[Run /marketing-sostac]
+    C --> D["Create brands/brand-slug/"]
+    D --> E["Write brand-context.md"]
+    E --> F["Create sostac/README.md"]
+    F --> G["#sol;marketing-sostac"]
     B -- Yes --> H[Load existing brand]
 ```
 

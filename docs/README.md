@@ -52,13 +52,13 @@ Use this docs set to understand how the suite works, where to start, what each s
 
 ```mermaid
 flowchart TD
-    A[/marketing-agency/] --> B{Strategy already exists?}
-    B -- No --> C[/marketing-sostac/]
-    C --> D[/product-marketing-context/]
+    A["#sol;marketing-agency"] --> B{Strategy already exists?}
+    B -- No --> C["#sol;marketing-sostac"]
+    C --> D["#sol;product-marketing-context"]
     B -- Yes --> D
     D --> E[Specialist skills]
-    E --> F[Write to brands/{brand-slug}/]
-    F --> G[/marketing-analytics/ and 06-control.md]
+    E --> F["Write to brands/brand-slug/"]
+    F --> G["#sol;marketing-analytics + 06-control.md"]
 ```
 
 ## Recommended ways to use the suite
