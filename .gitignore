@@ -29,3 +29,6 @@ node_modules/
 
 # Skill-creator eval workspaces
 *-workspace/
+/_bmad
+/extracted-frameworks
+/skills/reports
