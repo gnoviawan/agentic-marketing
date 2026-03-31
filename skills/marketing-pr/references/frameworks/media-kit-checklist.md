@@ -1,7 +1,7 @@
 # Media Kit Checklist
 
 > Part of the **Media Pitch Templates & Frameworks** collection.
-> For the full index of all pitch frameworks, see `../frameworks-index.csv`.
+> For the full index of all pitch frameworks, see `./references/frameworks-index.csv`.
 
 Every brand should maintain an up-to-date media kit. Contents:
 

@@ -1,7 +1,7 @@
 # Cold Pitch Email Template
 
 > Part of the **Media Pitch Templates & Frameworks** collection.
-> For the full index of all pitch frameworks, see `../frameworks-index.csv`.
+> For the full index of all pitch frameworks, see `./references/frameworks-index.csv`.
 
 The universal structure that underlies all pitch types. Every pitch should contain
 these five elements regardless of the specific format.

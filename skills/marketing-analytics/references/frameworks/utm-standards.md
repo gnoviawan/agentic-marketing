@@ -1,6 +1,6 @@
 # UTM Parameter Standards
 
-See dedicated file: `references/utm-standards.md` for comprehensive UTM naming conventions.
+See dedicated file: `./references/utm-standards.md` for comprehensive UTM naming conventions.
 
 ### Quick Reference
 | Parameter      | Purpose                    | Example                    |

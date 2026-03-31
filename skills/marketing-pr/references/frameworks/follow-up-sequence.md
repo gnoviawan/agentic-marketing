@@ -1,7 +1,7 @@
 # Follow-Up Sequence
 
 > Part of the **Media Pitch Templates & Frameworks** collection.
-> For the full index of all pitch frameworks, see `../frameworks-index.csv`.
+> For the full index of all pitch frameworks, see `./references/frameworks-index.csv`.
 
 Never send "just checking in" follow-ups. Every touchpoint must add new value.
 

@@ -1,7 +1,7 @@
 # Pitch Types
 
 > Part of the **Media Pitch Templates & Frameworks** collection.
-> For the full index of all pitch frameworks, see `../frameworks-index.csv`.
+> For the full index of all pitch frameworks, see `./references/frameworks-index.csv`.
 
 ### 3.1 News Pitch (Product Launch / Company News)
 

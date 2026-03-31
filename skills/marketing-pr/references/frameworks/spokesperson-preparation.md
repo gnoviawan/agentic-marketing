@@ -1,7 +1,7 @@
 # Spokesperson Preparation
 
 > Part of the **Media Pitch Templates & Frameworks** collection.
-> For the full index of all pitch frameworks, see `../frameworks-index.csv`.
+> For the full index of all pitch frameworks, see `./references/frameworks-index.csv`.
 
 ### 6.1 The Message Triangle
 

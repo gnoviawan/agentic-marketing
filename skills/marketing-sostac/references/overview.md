@@ -1,16 +1,16 @@
 # marketing-sostac
 
-SOSTAC Marketing Plan Builder — a guided interview skill that takes a brand through all 6 phases of the SOSTAC framework and produces a complete, structured marketing plan.
+SOSTAC Marketing Plan Builder — research-first marketing planning through the 6-phase SOSTAC framework.
 
 ## What it does
 
-Runs a deep guided interview through each SOSTAC phase, then saves structured documents to `brands/{brand-slug}/sostac/`. Designed to work across multiple sessions — it resumes from where it left off.
+Executes the SOSTAC framework through deep research and proactive recommendations. Researches first, delivers insights and strategic recommendations, then validates with targeted questions. Outputs structured phase documents to `./brands/{brand-slug}/sostac/`.
 
-**Phases:**
+## Capabilities
 
-| # | Phase | Question answered | Output file |
-|---|-------|-------------------|-------------|
-| 0 | Auto-Discovery | Automated web research before the interview starts | `00-auto-discovery.md` |
+| # | Capability | Question Answered | Output File |
+|---|------------|-------------------|-------------|
+| 0 | Auto-Discovery | Automated web research before planning | `00-auto-discovery.md` |
 | 1 | Situation | Where are we now? | `01-situation.md` |
 | 2 | Objectives | Where do we want to be? | `02-objectives.md` |
 | 3 | Strategy | How do we get there? | `03-strategy.md` |
@@ -18,7 +18,7 @@ Runs a deep guided interview through each SOSTAC phase, then saves structured do
 | 5 | Action | Who does what, when? | `05-action.md` |
 | 6 | Control | How do we monitor and improve? | `06-control.md` |
 
-## Frameworks applied
+## Frameworks by Phase
 
 - **Situation:** SWOT+TOWS, PESTLE, Porter's Five Forces, TAM/SAM/SOM, Jobs-to-be-Done, 5S digital baseline
 - **Objectives:** OKR structure, RACE framework, 5S cross-check, benchmark pressure-testing
@@ -26,6 +26,18 @@ Runs a deep guided interview through each SOSTAC phase, then saves structured do
 - **Tactics:** Situational Playbook Router (brand maturity × AARRR), ICE scoring, Hub-Hero-Help content model, 7P marketing mix, 70/20/10 budget rule
 - **Action:** RACI matrix, agile sprint planning, objective-and-task budgeting, risk register
 - **Control:** North Star Metric, attribution model selection, PDCA, Balanced Scorecard, OKR review cadence, optimization triggers
+
+## Reference Structure
+
+```
+references/
+├── capability-*.md           # Phase-specific capability prompts
+├── frameworks-index.csv      # Framework routing index
+├── frameworks/               # Individual framework methodology files
+├── best-practices.md         # Benchmarks, pitfalls, industry standards
+├── auto-discovery.md         # Browser automation commands for research
+└── shared-patterns.md        # Shared patterns across marketing skills
+```
 
 ## How to use
 
@@ -56,9 +68,3 @@ brands/{brand-slug}/sostac/
 ├── 06-control.md
 └── plan-summary.md          # Executive summary (generated after all 6 phases)
 ```
-
-## Reference files
-
-- `references/frameworks.md` — Full methodology detail for every framework used
-- `references/auto-discovery.md` — Automated research command sequences
-- `references/best-practices.md` — Interview and synthesis best practices

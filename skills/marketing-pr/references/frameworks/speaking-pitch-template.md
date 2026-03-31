@@ -1,7 +1,7 @@
 # Speaking Pitch Template
 
 > Part of the **Media Pitch Templates & Frameworks** collection.
-> For the full index of all pitch frameworks, see `../frameworks-index.csv`.
+> For the full index of all pitch frameworks, see `./references/frameworks-index.csv`.
 
 ```
 SUBJECT: Speaker proposal: [Talk Title] for [Event Name]
